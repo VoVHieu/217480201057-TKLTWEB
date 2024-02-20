@@ -5,8 +5,62 @@
     <title>Baitap4</title>
 </head>
 <body>
-    <font><b><center>TRƯỜNG ĐẠI HỌC BẠC LIÊU &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</center></b></font>
-  <font><center>KHOA CÔNG NGHỆ THÔNG TIN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Độc lập - Tự do - Hạnh phúc</center></font>
-  <font face="verdana" size="4" color="red"><b><center>ĐĂNG KÝ XÉT TUYỂN</center></b></font>
+  <table border="1" bordercolor="black" style="width:100%" cellspacing="0">
+    <td align="left" bgcolor="yellow">Đăng ký dự thi</td>
+</table>
+<br>
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left;">
+        <div style="margin-left: 95px;">
+        <b><font face="Tahoma" size="4" color="Black">TRƯỜNG ĐẠI HỌC BẠC LIÊU</div></font></b>
+    </div>
+    <div style="text-align: right;">
+        <div style="margin-right: 95px;">
+        <b><font face="Tahoma" size="4" color="Black">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</font></b></div>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <div style="text-align: left;">
+      <div style="margin-left: 95px;">
+      <font face="Tahoma" size="4" color="Black">KHOA CÔNG NGHỆ THÔNG TIN</div></font>
+  </div>
+  <div style="text-align: right;">
+      <div style="margin-right: 168px;">
+      <font face="Tahoma" size="4" color="Black">Độc lập - Tự do - Hạnh phúc</div></font>
+  </div>
+</div>
+  <font face="Verdana" size="4" color="red"><b><h1 style="text-align: center;">ĐĂNG KÝ XÉT TUYỂN</h1></b></font>
+  <br>
+  <br>
+  <form method="post" action="">
+    <font face="Times new roman" size="4">
+        <div style="margin-left: 200px;">
+        <p>Họ tên:&ensp;<input type="text" name="Hoten" size="30" maxlength="30"></p>
+        </div>    
+    </font>
+    <font face="Times new roman" size="4">
+      <div style="margin-left: 200px;">
+        <p>Giới tính:&nbsp;
+          <input type="radio" name="GT" value="1" checked>Nam
+          <input type="radio" name="GT" value="0">Nữ
+        </p>
+      </div>
+      <div style="margin-left: 200px;">
+        Ngành thi:
+        <div style="margin-left: 80px;">
+          <input type="radio" name="NT" value="1" checked>Công nghệ thông tin<br>
+          <input type="radio" name="NT" value="0">Mầm non<br>
+          <input type="radio" name="NT" value="0">Âm nhạc<br>
+          </div>
+      </div>
+    </font>
+    <br>
+    <p>
+      <div style="margin-left: 200px;">
+        <input type="submit" value="Đồng ý" name="dongy" style="font-weight: bold; padding: 6px 25px;" size="4">&nbsp;&nbsp;
+      <input type="reset" value="Không đồng ý" name="khongdongy" style="font-weight: bold; padding: 6px 32px;" size="4">
+      </div>
+    </p>
+  </form>
 </body>
 </html>
