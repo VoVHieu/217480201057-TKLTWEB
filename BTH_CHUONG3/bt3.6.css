@@ -1,0 +1,21 @@
+body{
+    background-color: yellow;
+}
+h1{
+    color: red;
+}
+.li1 {
+    color: purple;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.li2{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+}
+p{
+    margin-left: 50px;
+    margin-right: 450px;
+    text-align: justify;
+}

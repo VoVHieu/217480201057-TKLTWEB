@@ -1,0 +1,18 @@
+td{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 40%;
+}
+table, td, th {
+    border: 1px solid;
+}
+
+.tr1{
+    background-color: darkgrey;
+}
+.tr1 .tr2{
+    font-size: 14pt;
+    font-family: 'Times New Roman';
+}

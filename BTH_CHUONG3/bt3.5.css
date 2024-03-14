@@ -1,0 +1,19 @@
+h3{
+    margin: 5px;
+}
+table td{
+    border: 1px solid;
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+span{
+    background-color: aqua;
+    margin-left: 12px;
+}
+.lis{
+    font-size: 13pt;
+    font-family: Verdana;
+    margin-left: 40px;
+}
